@@ -48,3 +48,6 @@
 
 윈도우에서 DCTTS 한국어 TTS 학습하기
   * https://chldkato.tistory.com/8
+  
+DCTTS 정리
+  * https://chldkato.tistory.com/185
