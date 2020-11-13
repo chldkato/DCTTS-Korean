@@ -1,5 +1,10 @@
 # DCTTS Korean TTS
 
+### Requirements
+* Python 3.7
+* tensorflow < 2.0
+* jamo
+
 ### Training
 
 1. **한국어 음성 데이터 다운로드**
