@@ -11,6 +11,7 @@ def highway(input_data, filters, kernel_size, padding, dilation_rate):
                kernel_initializer='he_normal')(input_data)
     h_1, h_2 = tf.split(x, num_or_size_splits=2, axis=-1)
     h_1 = Activation('sigmoid')(h_1)
+    h_2 = Activation('relu')(h_2)
     return h_1 * h_2 + (1.0 - h_1) * input_data
 
 
